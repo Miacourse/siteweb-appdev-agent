@@ -1,0 +1,15 @@
+# Secrets / environnement — ne jamais committer
+.env
+.env.local
+*.token
+*token*
+
+# Build / dépendances
+node_modules/
+.next/
+out/
+dist/
+
+# OS / éditeur
+.DS_Store
+Thumbs.db
